@@ -13,4 +13,4 @@ My current research interests lie at the intersection of statistics, probability
 
 Software for published work can be found on [[github](https://github.com/fawuuu)].
 
-My resésumé is available [here(https://fawuuu.github.io/files/cv_fanwu.pdf)].
+My resésumé is available [[pdf](https://fawuuu.github.io/files/cv_fanwu.pdf)].
