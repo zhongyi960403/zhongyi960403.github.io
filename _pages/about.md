@@ -11,6 +11,6 @@ I am a final year PhD student at the University of Oxford in Computational Stati
 
 My current research interests lie at the intersection of statistics, probability and optimization. I am particularly interested in desgning and investigating the statistical properties of computationally efficient algorithms for high-dimensional models in machine learning. 
 
-Software for published work can be found on [[github](https://github.com/fawuuu)].
+Software for published work can be found on my [[github page](https://github.com/fawuuu)].
 
-My resésumé is available [[here](https://fawuuu.github.io/files/cv_fanwu.pdf)].
+My résumé is available [[here](https://fawuuu.github.io/files/cv_fanwu.pdf)].
