@@ -1,5 +1,9 @@
 {% include base_path %}
 
+a:hover{
+    text-decoration:none;
+}
+
 {% if post.header.teaser %}
   {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
 {% else %}
@@ -26,11 +30,11 @@
       </div>
     {% endif %}
 
-    <b class="archive__item-title" itemprop="headline">
+    <h2 class="archive__item-title" itemprop="headline">
       {% if post.title %}
         {{post.title}}
       {% endif %}
-      </b>
+      </h2>
     
     {% if post.authors %}
       <i>{{ post.authors | markdownify }}</i>
