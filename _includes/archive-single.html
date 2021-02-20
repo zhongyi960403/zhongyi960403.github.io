@@ -26,11 +26,11 @@
       </div>
     {% endif %}
 
-    <h2 class="archive__item-title" itemprop="headline">
+    <b class="archive__item-title" itemprop="headline">
       {% if post.title %}
         {{post.title}}
       {% endif %}
-      </h2>
+      </b>
     
     {% if post.authors %}
       <i>{{ post.authors | markdownify }}</i>
