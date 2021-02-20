@@ -7,5 +7,7 @@ excerpt: 'We analyze continuous-time mirror descent applied to sparse phase retr
 date: 2020-10-20
 venue: 'Accepted for spotlight presentation at the 34th Conference on Neural Information Processing Systems (NeurIPS)'
 paperurl: 'https://arxiv.org/abs/2010.10168'
+proceedings: "https://papers.nips.cc/paper/2020/hash/e9470886ecab9743fb7ea59420c245d2-Abstract.html"
+video: "https://videos.neurips.cc/search/A%20Continuous-Time%20Mirror%20Descent%20Approach%20to%20Sparse%20Phase%20Retrieval/video/slideslive-38937861"
 ---
 
