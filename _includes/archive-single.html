@@ -54,10 +54,10 @@
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %}
     
-    {% if post.paperurl and post.code and post.proceedings %}
-      <p><a href=" {{ post.proceedings }} " style="text-decoration:none;">[proceedings]</a>  <a href=" {{ post.paperurl }} " style="text-decoration:none;">[arXiv]</a>  <a href=" {{ post.code }} " style="text-decoration:none;">[code]</a></p>
-    {% elsif post.paperurl and post.code and post.proceedings and post.video %}
+    {% if post.paperurl and post.code and post.proceedings and post.video %}
       <p><a href=" {{ post.proceedings }} " style="text-decoration:none;">[proceedings]</a>  <a href=" {{ post.paperurl }} " style="text-decoration:none;">[arXiv]</a>  <a href=" {{ post.code }} " style="text-decoration:none;">[code]</a> <a href=" {{ post.video }} " style="text-decoration:none;">[video]</a></p>
+    {% elsif post.paperurl and post.code and post.proceedings %}
+      <p><a href=" {{ post.proceedings }} " style="text-decoration:none;">[proceedings]</a>  <a href=" {{ post.paperurl }} " style="text-decoration:none;">[arXiv]</a>  <a href=" {{ post.code }} " style="text-decoration:none;">[code]</a></p>
     {% elsif post.paperurl and post.code and post.journal %}
       <p><a href=" {{ post.journal }} " style="text-decoration:none;">[journal]</a>  <a href=" {{ post.paperurl }} " style="text-decoration:none;">[arXiv]</a>  <a href=" {{ post.code }} " style="text-decoration:none;">[code]</a></p>
     {% elsif post.paperurl and post.code %}
