@@ -7,7 +7,7 @@ redirect_from:
   - /markdown.html
 ---
 <b>E-mail</b><br/>
-fan.wu AT spc.ox.ac.uk
+zhongyi.hu AT keble.ox.ac.uk
 
 <b>Post</b><br/>
 Department of Statistics<br/>
