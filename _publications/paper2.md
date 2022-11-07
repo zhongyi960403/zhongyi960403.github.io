@@ -1,10 +1,10 @@
 ---
-title: "Hadamard Wirtinger flow for Sparse Phase Retrieval"
+title: "Towards standard imsets for maximal ancestral graphs"
 collection: publications
-authors: "**F. Wu**, P. Rebeschini"
-code: "https://github.com/fawuuu/mirror_spr"
-excerpt: 'We consider the problem of reconstructing an $n$-dimensional $k$-sparse signal from a set of magnitude-only measurements. Formulating the problem as an unregularized empirical risk minimization task, we study the sample complexity performance of gradient descent with Hadamard parametrization, which we call Hadamard Wirtinger flow (HWF). Provided knowledge of the signal sparsity $k$, we prove that a single step of HWF is able to recover the support from $\mathcal{O}(kx_{max}^{-2}\log n)$ samples, where $x_{max}$ is the largest component of the signal in magnitude. This support recovery procedure can be used to initialize existing reconstruction methods and yields algorithms with total runtime proportional to the cost of reading the data and improved sample complexity, which is linear in $k$ when the signal contains at least one large component. We numerically investigate the performance of HWF at convergence and show that, while not requiring any explicit form of regularization nor knowledge of $k$, HWF adapts to the signal sparsity and reconstructs sparse signals with fewer measurements than existing gradient based methods.'
-date: 2021-04-13
-venue: 'Accepted for oral presentation at the 24th International Conference on Artificial Intelligence and Statistics (AISTATS)'
-paperurl: 'https://arxiv.org/abs/2006.01065'
+authors: "**Z.Hu**, R.Evans"
+code: ""
+excerpt: 'The imsets of \citet{studeny2006probabilistic} are an algebraic method for representing conditional independence models. They have many attractive properties when applied to such models, and they are particularly nice for working with directed acyclic graph (DAG) models. In particular, the standard imset for a DAG is in one-to-one correspondence with the independences it induces, and hence is a label for its Markov equivalence class. We present a proposed extension to standard imsets for maximal ancestral graph (MAG) models, using the parameterizing set representation of \citet{hu2020faster}. By construction, our imset also represents the Markov equivalence class of the MAG. We show that for many such graphs our proposed imset is \emph{perfectly Markovian} with respect to the graph thus providing a scoring criteria by measuring the discrepancy for a list of independences that define the model; this gives an alternative to the usual BIC score. Unfortunately, for some models the representation does not work, and in certain cases does not represent any independences at all. We prove that it does work for \emph{simple} MAGs where there are only heads of size less than three, as well as for a large class of purely bidirected models. We also show that of independence models that do represent the MAG, the one we give is the simplest possible, in a manner we make precise. Further we refine the ordered local Markov property, which relates to finding the best imsets representing general MAGs.'
+date: 2022-08-22
+venue: 'submitted to Bernoulli'
+paperurl: 'https://arxiv.org/abs/2208.10436'
 ---
