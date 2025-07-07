@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Zhongyi Hu"
 title_separator          : "-"
 name                     : &name "Zhongyi Hu"
-description              : &description "DPhil student at the University of Oxford"
+description              : &description "Postdoc at VU/PhD from University of Oxford"
 url                      : https://zhongyi960403.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "zhongyi960403.github.io"
@@ -87,7 +87,7 @@ author:
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : ""
-  email            : "zhongyi.hu@keble.ox.ac.uk"
+  email            : "z.hu@vu.nl"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
