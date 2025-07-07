@@ -7,11 +7,12 @@ redirect_from:
   - /markdown.html
 ---
 <b>E-mail</b><br/>
-zhongyi.hu AT keble.ox.ac.uk
+z.hu AT vu.nl
 
 <b>Post</b><br/>
-Department of Statistics<br/>
-University of Oxford<br/>
-24-29 St Giles'<br/>
-Oxford, OX1 3LB<br/>
-United Kingdom
+VU, Amsterdam<br/>
+De Boelelaan 1105<br/>
+1081 HV <br/>
+Amsterdam
+
+
